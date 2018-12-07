@@ -14,6 +14,7 @@
 	position: relative;
 	/* x y position for the four corners from top left, top right, bottom right, bottom left or how many corner you want*/
 	/* check out clippy */
+	-webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 	clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 
 	&__logo-box {
